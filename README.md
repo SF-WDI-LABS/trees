@@ -1,6 +1,7 @@
 <!--
-Creator: Team, editing by Cory
-Market: SF
+Creator: Team (Brianna)
+Last Edited by: Brianna, Cory
+Location: SF
 -->
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
@@ -11,7 +12,7 @@ Market: SF
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-Trees are a common way of structuring data - they can represent sets of information that are hierarchical in nature.  They are also easy to work with visually, which makes them a common whiteboarding topic.
+Trees are a common way of structuring data. They can represent sets of information that are hierarchical in nature, like a file system with directories inside directories. Specialized trees are also used for database indexing (btrees) and spell checking (tries), among many other uses.  They are also easy to work with visually, which makes them a common whiteboarding topic.
 
 ### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
@@ -73,7 +74,7 @@ Here are a few examples of trees in computing:
 
 ### Balanced Binary Search Trees
 
-Balanced Binary Search Trees (balanced BSTs) are trees, binary trees, binary search trees, and balanced trees.  
+Balanced Binary Search Trees (balanced BSTs) are very common in interviews because they store data in a sorted order and because they offer `O(log(n))` runtime for some operations. Balanced binary search trees are trees, binary trees, binary search trees, and balanced trees.    We'll break down those new terms. 
 
 #### Binary Trees
 
@@ -85,7 +86,7 @@ The most common types of trees for interviews are "binary trees," which allow ea
 
 **left is less, right is greater**
 
-Binary search trees add on an extra restriction to binary trees. In each node's left child subtree (if it has one), all nodes will will have keys *less* than the original node's key.  In each node's right child subtree (if it has one), all nodes must have a **greater** key than the original node itself. Left is less!
+Binary search trees add on an extra restriction to binary trees. In each node's left child subtree (if it has one), all nodes will will have keys *less* than the original node's key.  In each node's right child subtree (if it has one), all nodes must have a **greater** key than the original node itself (or equal). Left is less!
 
 
 <img src="images/bst.jpg" width="300px">
@@ -163,7 +164,7 @@ Below you'll find a table of speeds of common operations for a few of the data s
 </tr>
 </tbody></table>
 
-<sup>\*</sup> Insertion or deletion at the end of an array is <i>O</i>(1)  (constant time).    
+<sup>\*</sup> Insertion or deletion at the end of an array is usually implemented to be <i>O</i>(1)  (constant time).    
 <sup>\*\*</sup>  Sort and then binary search. A faster <i>O</i>(<i>n</i> + <i>k</i>&nbsp;log&nbsp;<i>n</i>) algorithm exists using the heap data structure, which we haven't talked about yet.  There are also faster sorts if you have information about your input.   
 <sup>+</sup> For a <a href="/wiki/Self-balancing_binary_search_tree" title="Self-balancing binary search tree" class="mw-redirect">Self-balancing binary search tree</a>, the height is <i>O</i>(log&nbsp;<i>n</i>). If the tree is not balanced, the height can be up to <i>O</i>(<i>n</i>).   
 <sup>++</sup> Can reduce to <i>O</i>(<i>height</i>) by augmenting each node to keep track of the size of its subtree.   
@@ -214,7 +215,9 @@ Below you'll find a table of speeds of common operations for a few of the data s
 
 
 
-## Vocab Practice **Solutions**
+### Vocab Practice **Solutions**
+
+<details><summary>click to reveal</summary>
 
 1. Use the diagram below to fill in the following table:
 
@@ -261,6 +264,7 @@ Below you'll find a table of speeds of common operations for a few of the data s
 
   *Only the tree rooted with 6 is a binary search tree. The others both have nodes in the root's left subtree that are greater than the root node.*
 
+</details>
 
 ### Today's Challenges
 
