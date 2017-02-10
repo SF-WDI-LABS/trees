@@ -284,7 +284,7 @@ Do as many of these challenges as you can in 5 minutes. Don't worry if you don't
 
 1. A "min heap" is another abstract data structure often thought of as a type of binary tree. It has a few additional restrictions, including one called the "min heap property:" every node's key is less than the keys of its children. What is special about the root of a min heap?  
 
-## Binary Search Tree (15 minutes)
+### Binary Search Tree (15 minutes)
 
 **Get as far in this challenge as you can in 15 minutes.**
 
