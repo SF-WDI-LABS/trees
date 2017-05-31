@@ -191,25 +191,25 @@ Below you'll find a table of speeds of common operations for a few of the data s
 
   <img src="images/labels.jpg" width="300px">
 
-1. In the same diagram (above), which node is the root?  Which are leaves?
+2. In the same diagram (above), which node is the root?  Which are leaves?
 
 
-1. Finally, in that same diagram, what is the height of the tree?
+3. Finally, in that same diagram, what is the height of the tree?
 
   <br><br>
 
-1. Which of the following is a tree? (There may be more than one.)
+4. Which of the following is a tree? (There may be more than one.)
 
   <img src="images/which_tree.jpg" width="300px">
 
 
-1. Which of the following is a balanced tree? (There may be more than one.)
+5. Which of the following is a balanced tree? (There may be more than one.)
 
   <img src="images/which_balanced.jpg" width="300px">
 
 
 
-1. Which of the following is a binary search tree? (There may be more than one.)
+6. Which of the following is a binary search tree? (There may be more than one.)
 
   <img src="images/which_bst.jpg" width="300px">
 
@@ -230,16 +230,16 @@ Below you'll find a table of speeds of common operations for a few of the data s
 
   <img src="images/labels.jpg" width="300px">
 
-1. In the same diagram (above), which node is the root?  Which are leaves?
+2. In the same diagram (above), which node is the root?  Which are leaves?
 
   *D is the root.  A, C, and E are leaves.*
 
-1. Finally, in that same diagram, what is the height of the tree?
+3. Finally, in that same diagram, what is the height of the tree?
 
   *The height is 2, because the longest path from root to leaf has 2 edges/branches in it.*
   <br><br>
 
-1. Which of the following is a tree? (There may be more than one.)
+4. Which of the following is a tree? (There may be more than one.)
 
   <img src="images/which_tree.jpg" width="300px">
 
@@ -252,13 +252,13 @@ Below you'll find a table of speeds of common operations for a few of the data s
   *F is not a tree because it's 2 trees! This is called a "forest".*
 
 
-1. Which of the following is a balanced tree? (There may be more than one.)
+5. Which of the following is a balanced tree? (There may be more than one.)
 
   <img src="images/which_balanced.jpg" width="300px">
 
   *B, D, and C are balanced because all of the "missing children" in these trees are either at the bottom level or one level above.*
 
-1. Which of the following is a binary search tree? (There may be more than one.)
+6. Which of the following is a binary search tree? (There may be more than one.)
 
   <img src="images/which_bst.jpg" width="300px">
 
